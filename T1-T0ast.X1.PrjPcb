@@ -117,6 +117,23 @@ GenerateClassCluster=0
 DocumentUniqueId=UZMAJQNZ
 
 [Document5]
+DocumentPath=USB_Audio.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=USTHTNJZ
+
+[Document6]
 DocumentPath=T1-T0ast.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,7 +150,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LWPYCRJM
 
-[Document6]
+[Document7]
 DocumentPath=USB_SATA.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +167,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QPPGDOOA
 
-[Document7]
+[Document8]
 DocumentPath=RJ45_Ethernet.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,7 +184,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FRMBYOJD
 
-[Document8]
+[Document9]
 DocumentPath=HDMI.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,7 +201,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DTLFPLQE
 
-[Document9]
+[Document10]
 DocumentPath=SD_Card.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -201,7 +218,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XQUHKKHJ
 
-[Document10]
+[Document11]
 DocumentPath=USB3_Replication.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
