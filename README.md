@@ -5,7 +5,7 @@ Designed with the intention of allowing legacy Sata, PCIE, and ATX/ITX equipment
 Primarily selected components from TI in advance due to open documentation & domestic sourcing.
 ![image](https://github.com/user-attachments/assets/ceaf5b70-2d87-4256-9097-2fc8a0a3a318)
 
-**2/12/2024**
+**2/12/2025**
 ![image](https://github.com/user-attachments/assets/8a8849f6-b487-4b72-ac72-12003d1c16be)
 ![image](https://github.com/user-attachments/assets/b4a303cb-13a9-4137-b3a5-ad3f853d8359)
 
