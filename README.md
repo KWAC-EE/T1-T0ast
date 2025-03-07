@@ -3,7 +3,8 @@ Mini-ITX drop-in motherboard for the CM5.
 
 Designed with the intention of allowing legacy Sata, PCIE, and ATX/ITX equipment to find a useful home.
 Primarily selected components from TI in advance due to open documentation & domestic sourcing.
-![image](https://github.com/user-attachments/assets/ceaf5b70-2d87-4256-9097-2fc8a0a3a318)
+![image](https://github.com/user-attachments/assets/b902979c-92dd-420a-a32c-c7aa8429cdf4)
+
 
 **2/12/2025**
 ![image](https://github.com/user-attachments/assets/8a8849f6-b487-4b72-ac72-12003d1c16be)
@@ -20,3 +21,10 @@ The USB Hub chosen for Rev x1 claims to be USB2, but that turns out to be on the
 My power scheme (24pin ATX + 4-pin) seems to be working as intended. The momentary switch is superceded by a relay to keep the PSU active once the CM is powered on. At this time, Safe powe-down operation can only be completed from the desktop. Currently powering via Pico-PSU & 12VDC supply for bench setup, but larger PCIE cards/ Sata drives will likely require increased wattage and stability of a full supply.
 
 I've been testing with a CM4 and Radxa-CM5 while i wait for my pi Cm5 (on backorder) so behavior might change when I'm able to switch to the real deal.
+
+**3/7/2025**
+Rev X2 updates based on sample testing have been laid out. Development kits for 7x USB2 hub are inbound. SATA bridges have been corrected based on feedback from TI.
+
+Due to differences in startup behavior between rPi & Radxa CM5, hardwired delay circuits have been added to latching relays, and power button/reset have been made discrete.
+
+Previous assembly process called out ENIG for PCB; will switch to HASL to save cost
