@@ -1,0 +1,6 @@
+issues found during testing:
+
+- the USB2 hub (TUSB2077) fails to enumerate downstream peripherals. Dropping this chip in favor of the USB2517 from Micropchip for X2
+- Audio CODEC is not enumerated, and flaw was found on DP-Pull-up segment. Chip clock replaced with Crystal resonator for Rev X2
+- USB-Sata bridges lack requisite SPI Flash; will add for X2. Chipsets themselves are not enumerated
+- Forgot to implement RPI-Boot jumper, so unable to natively flash CM5s with emmc. will populate for Rev X2
