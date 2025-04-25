@@ -1,0 +1,7 @@
+Issues noted during testing:
+
+- Power-latching relay (U2) for ATX supply needed to have delay switch (U3) bypassed to ground.
+- TUSB8020 on USB3-0 (U19) does not enumerate either of the downstream Sata bridges (U18 & U20)
+- Reset-delay circuit for sata bridges needed to be bypassed; R84 & R86 removed, C168 replaced with 4.7uF to allow passive reset
+- Reset delay circuit for m.2 sata bridge needed to be bypassed; R52 & R54 removed, C75 replaced with 1uF to allow for passive reset
+- RJ45 port (J11) mistakenly populated with HR911130A, which wouldn't function; replaced properly with 0936263508
