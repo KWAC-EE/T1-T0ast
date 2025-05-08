@@ -48,3 +48,17 @@ Tested several simple PCIe devices in the x16 slot like a SATA expansion and USB
 A low end graphics (GT210) card i dropped in wasn't recognised by lspci, so I can't vouch for that kind of implementation just yet.
 
 Feels like i'm nearing the finish line. In any case, the X3 does most of what i need for work purposes, so I may spend some time away from development.
+
+**5/8/2025**
+ Rev X4 changes underway
+ 
+I've removed the manually timed reset circuits for the latching relay and Sata bridges, and made them passive. The leveling capacitors on the TUSB9261s are larger than recommended, with the intention of delaying reset until 2x the time of their host USB3 hubs.
+
+I've also removed & replaced the TUSB8020 with an 8041 for the sata bridges, routing the spare USB3 lanes to a FP-IO header.
+
+Per TI's recommendations, I've added AC coupling caps on BOTH the RX & TX lines between the pi and hubs. The IO board for the CM5 lacks these and seem to function ok, but in the interest of Giving myself an out, i will at least include the pads (couple replace RX caps with 0ohm resistors if deemed unnecessary)
+
+Biffed the firmware flashing process and my flashing tool during debugging, hopefully will receive replacement chip-clips soon. Ideally, i could pre-flash the spi modules before doing a full build, but the bridges on the full board dont seem to like receiving rev 1.06 firmware binaries as much as their discrete counterparts on my dev kits. what this means is that I will need to port windows to a CM5 (WoP project has thankfully done enough for me to try this) and use the native TI Flash-burner utility to do this within the system.
+
+but holy hell, i reran the costs for this dev build, and its over a grand for 5 boards from JLCPCB with the nonsensical tarrifs (domestics are much higher and have MOQ of 10, which i think is even more wasteful if a batch is a dud).
+If you don't see an update from me after this, its because i've mothballed development until a sane adult is in charge.
