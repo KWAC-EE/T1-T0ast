@@ -3,7 +3,7 @@ Mini-ITX drop-in motherboard for the CM5.
 
 Designed with the intention of allowing legacy Sata, PCIE, and ATX/ITX equipment to find a useful home.
 Primarily selected components from TI in advance due to open documentation & domestic sourcing.
-![image](https://github.com/user-attachments/assets/e5d51cef-71c1-4696-b5b3-43449a18482a)
+![image](https://github.com/user-attachments/assets/81c5d3a1-226b-44c1-8c26-a72be6fd8abd)
 
 
 
@@ -62,3 +62,10 @@ Biffed the firmware flashing process and my flashing tool during debugging, hope
 
 but holy hell, i reran the costs for this dev build, and its over a grand for 5 boards from JLCPCB with the nonsensical tarrifs (domestics are much higher and have MOQ of 10, which i think is even more wasteful if a batch is a dud).
 If you don't see an update from me after this, its because i've mothballed development until a sane adult is in charge.
+
+**6/4/2025**
+Well, here i am. Bit the bullet. one more go from me, fam
+
+Rev X4 with some IO modifications is in flight. If this doesn't work, i entrust the next weary traveler to pick up the torch and carry on.
+
+results to follow
