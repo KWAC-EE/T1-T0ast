@@ -69,3 +69,14 @@ Well, here i am. Bit the bullet. one more go from me, fam
 Rev X4 with some IO modifications is in flight. If this doesn't work, i entrust the next weary traveler to pick up the torch and carry on.
 
 results to follow
+
+**6/30/2025**
+Works as well as I can reasonably hope. had to remove the AC caps to leave both RX & TX floating on the hub which drives the 2 sata bridges.
+
+Been troubleshooting this issue so long, with tickets to both TI & The pi forums, and i cant find a solution to the USB3 enumeration issue.
+
+I'll package and release the current hardware production files once I daily drive this model for a bit. Sent a sample for review, so if that brought you here, welcome!
+
+Don't take my design as gospel, but it is all at least 98% functional, from the power regulation to the IO expanders and adapters. If you have a project which could use part of this design, adherent to the open-source nature of the project as it is, have at it.
+
+If you need design resources, or you're interested in seeing which hardware can be made compatible with this platform, check out my other repositories.
