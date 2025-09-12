@@ -71,3 +71,12 @@ I'll package and release the current hardware production files once I daily driv
 Don't take my design as gospel, but it is all at least 98% functional, from the power regulation to the IO expanders and adapters. If you have a project which could use part of this design, adherent to the open-source nature of the project as it is, have at it.
 
 If you need design resources, or you're interested in seeing which hardware can be made compatible with this platform, check out my other repositories.
+
+**9/12/2025**
+The whole thing works. I am an idiot.
+
+The CM5's that I'd been using for development and testing were all damaged in the same location by me, and I never noticed until an rPi dev pointed out that part of the usb3 circuit had components close to a mounting hole.
+
+After NOT fucking up a fresh CM and installing it fresh out of the box, everything worked as designed. so there. I'll be done.
+
+Pending review from some connoisseurs, I'll uprev and package the files in an official release, but I'm not puting myself under any pressure to do so.
