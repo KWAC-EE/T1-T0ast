@@ -1,6 +1,9 @@
 # T1-T0ast
 Mini-ITX drop-in motherboard for the CM5.
 
+##Rev X4 Issue notice!¡!1!##
+If building to RevX4 design spec, depopulate FB6. This component may short -12VDC on PSUs that supply this rail (-12vDC is unused at this time)
+
 <img width="473" height="477" alt="image" src="https://github.com/user-attachments/assets/13acb929-29a9-4544-aab8-3bbdb938e57a" />
 
 Designed with the intention of allowing legacy Sata, PCIE, and ATX/ITX equipment to find a useful home.
